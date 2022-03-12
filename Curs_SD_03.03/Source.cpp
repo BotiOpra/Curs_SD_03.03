@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 
-// forward-list
-
 struct List
 {
 	struct Node
@@ -372,8 +370,4 @@ int main()
 {
 	List newList;
 	event_handler(newList);
-
-
-
-	return 0;
 }
